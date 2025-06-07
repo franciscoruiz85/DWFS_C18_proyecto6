@@ -97,7 +97,7 @@ userRouter.post('/create', createUser);
  */
 userRouter.post('/login', loginUser);
 
-userRouter.get('/verify-user', auth, verifyUser);
+userRouter.get('/verify-user', verifyUser);
 
 /**
  * @swagger
